@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+<script src="/assets/jquery.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+<style>
+
+</style>
+
+</head>
+
+<body>
+<h1>Goel's icecream centre</h1>
+<h2>a New York City eatery</h2>
+<div class="first">
+  <p>Stracciatella gelato <span class="price">$14</span><br />
+  <small>.Stracciatella Gelato is kind of like American chocolate chip ice cream, except completely different. Instead of the chips and sometimes chunks you find in American product. </small></p>
+</div>
+<div class="second">
+  <p>Neapolitan <span class="price">$22</span><br />
+  <small>Neapolitan ice cream, sometimes known as harlequin ice cream,[2] is a flavor of ice cream made up of three separate flavored blocks of vanilla, chocolate, and strawberry ice cream side by side in the same container .</small></p>
+</div>
+<div class="dessert">
+  <p> Rocky road icecream <span class="price">$8</span><br />
+  <small>Rocky road ice cream is a chocolate flavored ice cream.[1] Though there are variations from the original flavor, it is traditionally composed of chocolate ice cream, nuts, and whole or diced marshmallows.</small></p>
+</div>
+<br>
+<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+
+</body>
